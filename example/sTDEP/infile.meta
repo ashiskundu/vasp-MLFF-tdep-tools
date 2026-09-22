@@ -1,0 +1,4 @@
+       250     # N atoms
+       384     # N timesteps after discard-start/stride
+       1.0     # timestep in fs (currently not used)
+     300.0     # temperature in K (only for free energy)

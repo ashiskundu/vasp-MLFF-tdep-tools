@@ -1,0 +1,5 @@
+python vasprun_to_tdep.py --pattern ./vasprun.xml --discard-start 2000 --stride 10 --timestep-fs 1.0
+python vasprun_to_tdep.py --pattern ./vasprun.xml --discard-start 2000
+
+
+

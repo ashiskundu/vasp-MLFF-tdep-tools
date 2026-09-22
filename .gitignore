@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# VASP output
+vasprun.xml
+OUTCAR
+WAVECAR
+CHGCAR
+CHG
+DOSCAR
+EIGENVAL
+PROCAR
+XDATCAR
+CONTCAR
+OSZICAR
+IBZKPT
+POTCAR
+
+# MD / trajectory data
+*.positions
+*.forces
+*.trajectory
+
+# Temporary/editor files
+*.swp
+*.swo
+*~
+.DS_Store
