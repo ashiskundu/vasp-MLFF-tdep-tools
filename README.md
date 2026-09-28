@@ -11,12 +11,19 @@ Pure standard library -- no ASE, no numpy, no external tools required
 with a portable pure-Python line scan).
 
 Usage:sTDEP
+
     python vasprun_to_tdep.py                       # temperature defaults to 300.0 K
+    
     python vasprun_to_tdep.py --temperature 250.0
+    
     python vasprun_to_tdep.py --pattern "./samples*/sample.*/vasprun.xml"
+    
     python vasprun_to_tdep.py --discard-start 500 --stride 5
+    
     python vasprun_to_tdep.py --dry-run
 
-Usage:mdTDEP    
+Usage:mdTDEP 
+
     python vasprun_to_tdep.py --pattern ./vasprun.xml --discard-start 2000 --stride 10 --timestep-fs 1.0
+    
     python vasprun_to_tdep.py --pattern ./vasprun.xml --discard-start 2000
